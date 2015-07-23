@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53DD47E81B60510C00C55C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD47E71B60510C00C55C05 /* AppDelegate.swift */; };
+		53DD47EF1B60510C00C55C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DD47ED1B60510C00C55C05 /* Main.storyboard */; };
+		53DD47F11B60510C00C55C05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DD47F01B60510C00C55C05 /* Images.xcassets */; };
+		53DD47F41B60510C00C55C05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DD47F21B60510C00C55C05 /* LaunchScreen.xib */; };
+		53DD48001B60510C00C55C05 /* paybookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD47FF1B60510C00C55C05 /* paybookTests.swift */; };
+		53DD480C1B61543D00C55C05 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD480B1B61543D00C55C05 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53DD47FA1B60510C00C55C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DD47DA1B60510C00C55C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DD47E11B60510C00C55C05;
+			remoteInfo = paybook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53DD47E21B60510C00C55C05 /* paybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DD47E61B60510C00C55C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DD47E71B60510C00C55C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53DD47EE1B60510C00C55C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53DD47F01B60510C00C55C05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53DD47F31B60510C00C55C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		53DD47F91B60510C00C55C05 /* paybookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paybookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DD47FE1B60510C00C55C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DD47FF1B60510C00C55C05 /* paybookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paybookTests.swift; sourceTree = "<group>"; };
+		53DD480B1B61543D00C55C05 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53DD47DF1B60510C00C55C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DD47F61B60510C00C55C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DD47D91B60510C00C55C05 = {
+			isa = PBXGroup;
+			children = (
+				53DD47E41B60510C00C55C05 /* paybook */,
+				53DD47FC1B60510C00C55C05 /* paybookTests */,
+				53DD47E31B60510C00C55C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53DD47E31B60510C00C55C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53DD47E21B60510C00C55C05 /* paybook.app */,
+				53DD47F91B60510C00C55C05 /* paybookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53DD47E41B60510C00C55C05 /* paybook */ = {
+			isa = PBXGroup;
+			children = (
+				53DD47E71B60510C00C55C05 /* AppDelegate.swift */,
+				53DD47ED1B60510C00C55C05 /* Main.storyboard */,
+				53DD47F01B60510C00C55C05 /* Images.xcassets */,
+				53DD47F21B60510C00C55C05 /* LaunchScreen.xib */,
+				53DD47E51B60510C00C55C05 /* Supporting Files */,
+				53DD480B1B61543D00C55C05 /* MainViewController.swift */,
+			);
+			path = paybook;
+			sourceTree = "<group>";
+		};
+		53DD47E51B60510C00C55C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53DD47E61B60510C00C55C05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53DD47FC1B60510C00C55C05 /* paybookTests */ = {
+			isa = PBXGroup;
+			children = (
+				53DD47FF1B60510C00C55C05 /* paybookTests.swift */,
+				53DD47FD1B60510C00C55C05 /* Supporting Files */,
+			);
+			path = paybookTests;
+			sourceTree = "<group>";
+		};
+		53DD47FD1B60510C00C55C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53DD47FE1B60510C00C55C05 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53DD47E11B60510C00C55C05 /* paybook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DD48031B60510C00C55C05 /* Build configuration list for PBXNativeTarget "paybook" */;
+			buildPhases = (
+				53DD47DE1B60510C00C55C05 /* Sources */,
+				53DD47DF1B60510C00C55C05 /* Frameworks */,
+				53DD47E01B60510C00C55C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paybook;
+			productName = paybook;
+			productReference = 53DD47E21B60510C00C55C05 /* paybook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53DD47F81B60510C00C55C05 /* paybookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DD48061B60510C00C55C05 /* Build configuration list for PBXNativeTarget "paybookTests" */;
+			buildPhases = (
+				53DD47F51B60510C00C55C05 /* Sources */,
+				53DD47F61B60510C00C55C05 /* Frameworks */,
+				53DD47F71B60510C00C55C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53DD47FB1B60510C00C55C05 /* PBXTargetDependency */,
+			);
+			name = paybookTests;
+			productName = paybookTests;
+			productReference = 53DD47F91B60510C00C55C05 /* paybookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53DD47DA1B60510C00C55C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kinkoi Lo";
+				TargetAttributes = {
+					53DD47E11B60510C00C55C05 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					53DD47F81B60510C00C55C05 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 53DD47E11B60510C00C55C05;
+					};
+				};
+			};
+			buildConfigurationList = 53DD47DD1B60510C00C55C05 /* Build configuration list for PBXProject "paybook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53DD47D91B60510C00C55C05;
+			productRefGroup = 53DD47E31B60510C00C55C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DD47E11B60510C00C55C05 /* paybook */,
+				53DD47F81B60510C00C55C05 /* paybookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53DD47E01B60510C00C55C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DD47EF1B60510C00C55C05 /* Main.storyboard in Resources */,
+				53DD47F41B60510C00C55C05 /* LaunchScreen.xib in Resources */,
+				53DD47F11B60510C00C55C05 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DD47F71B60510C00C55C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53DD47DE1B60510C00C55C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DD47E81B60510C00C55C05 /* AppDelegate.swift in Sources */,
+				53DD480C1B61543D00C55C05 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DD47F51B60510C00C55C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DD48001B60510C00C55C05 /* paybookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53DD47FB1B60510C00C55C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DD47E11B60510C00C55C05 /* paybook */;
+			targetProxy = 53DD47FA1B60510C00C55C05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53DD47ED1B60510C00C55C05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53DD47EE1B60510C00C55C05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53DD47F21B60510C00C55C05 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53DD47F31B60510C00C55C05 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53DD48011B60510C00C55C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53DD48021B60510C00C55C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53DD48041B60510C00C55C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = paybook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53DD48051B60510C00C55C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = paybook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53DD48071B60510C00C55C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = paybookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paybook.app/paybook";
+			};
+			name = Debug;
+		};
+		53DD48081B60510C00C55C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = paybookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paybook.app/paybook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53DD47DD1B60510C00C55C05 /* Build configuration list for PBXProject "paybook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DD48011B60510C00C55C05 /* Debug */,
+				53DD48021B60510C00C55C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DD48031B60510C00C55C05 /* Build configuration list for PBXNativeTarget "paybook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DD48041B60510C00C55C05 /* Debug */,
+				53DD48051B60510C00C55C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DD48061B60510C00C55C05 /* Build configuration list for PBXNativeTarget "paybookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DD48071B60510C00C55C05 /* Debug */,
+				53DD48081B60510C00C55C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53DD47DA1B60510C00C55C05 /* Project object */;
+}

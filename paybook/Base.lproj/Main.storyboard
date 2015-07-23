@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PiA-Qg-mbO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="1T7-RF-EOF">
+            <objects>
+                <viewController id="PiA-Qg-mbO" customClass="MainViewController" customModule="paybook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x7S-Dg-GhR"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xus-23-n3P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fFS-eO-zgh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Ecc-C6-ZU0">
+                                <rect key="frame" x="0.0" y="28" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PiA-Qg-mbO" id="aBN-sc-AMN"/>
+                                    <outlet property="delegate" destination="PiA-Qg-mbO" id="KYq-Ib-xPT"/>
+                                </connections>
+                            </tableView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="keA-00-hUh">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Camera" id="tCW-PV-bBE"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xus-23-n3P" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" constant="8" symbolic="YES" id="2O7-0R-jDb"/>
+                            <constraint firstItem="x7S-Dg-GhR" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" constant="8" symbolic="YES" id="5YZ-4p-GgP"/>
+                            <constraint firstItem="Ecc-C6-ZU0" firstAttribute="top" secondItem="x7S-Dg-GhR" secondAttribute="bottom" constant="8" symbolic="YES" id="6bR-5t-44D"/>
+                            <constraint firstAttribute="height" secondItem="Ecc-C6-ZU0" secondAttribute="height" id="8f7-ak-s1o"/>
+                            <constraint firstAttribute="width" secondItem="Ecc-C6-ZU0" secondAttribute="width" id="93i-AX-SVp"/>
+                            <constraint firstAttribute="height" secondItem="Ecc-C6-ZU0" secondAttribute="height" id="Ekc-Bi-Urg"/>
+                            <constraint firstItem="keA-00-hUh" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" symbolic="YES" id="IB0-xr-ZoY"/>
+                            <constraint firstItem="x7S-Dg-GhR" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" constant="8" symbolic="YES" id="N09-Fs-ES7"/>
+                            <constraint firstAttribute="width" secondItem="Ecc-C6-ZU0" secondAttribute="width" id="Nbs-Fv-TzD"/>
+                            <constraint firstItem="Xus-23-n3P" firstAttribute="top" secondItem="keA-00-hUh" secondAttribute="bottom" id="RxH-Zn-RGy"/>
+                            <constraint firstItem="keA-00-hUh" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" id="UNq-Pc-Ss7"/>
+                            <constraint firstAttribute="width" secondItem="keA-00-hUh" secondAttribute="width" id="XTX-Dd-IkS"/>
+                            <constraint firstItem="x7S-Dg-GhR" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" constant="8" symbolic="YES" id="aZo-jV-V1L"/>
+                            <constraint firstItem="x7S-Dg-GhR" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" constant="8" symbolic="YES" id="ciZ-C0-ndf"/>
+                            <constraint firstAttribute="height" secondItem="Ecc-C6-ZU0" secondAttribute="height" id="cta-qf-oea"/>
+                            <constraint firstItem="Xus-23-n3P" firstAttribute="top" secondItem="keA-00-hUh" secondAttribute="bottom" symbolic="YES" id="iTb-lX-40R"/>
+                            <constraint firstAttribute="centerX" secondItem="keA-00-hUh" secondAttribute="centerX" id="nk9-IB-4DQ"/>
+                            <constraint firstItem="x7S-Dg-GhR" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" constant="8" symbolic="YES" id="qqQ-Dj-TP8"/>
+                            <constraint firstItem="keA-00-hUh" firstAttribute="centerX" secondItem="Ecc-C6-ZU0" secondAttribute="centerX" id="sGg-54-afC"/>
+                            <constraint firstAttribute="centerX" secondItem="Ecc-C6-ZU0" secondAttribute="centerX" id="uOM-j2-39r"/>
+                            <constraint firstItem="keA-00-hUh" firstAttribute="width" secondItem="Ecc-C6-ZU0" secondAttribute="width" id="vSk-vN-Zp5"/>
+                            <constraint firstItem="x7S-Dg-GhR" firstAttribute="top" secondItem="Ecc-C6-ZU0" secondAttribute="bottom" constant="8" id="zcf-0V-Rzi"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5YZ-4p-GgP"/>
+                                <exclude reference="N09-Fs-ES7"/>
+                                <exclude reference="aZo-jV-V1L"/>
+                                <exclude reference="ciZ-C0-ndf"/>
+                                <exclude reference="qqQ-Dj-TP8"/>
+                                <exclude reference="zcf-0V-Rzi"/>
+                                <exclude reference="Ekc-Bi-Urg"/>
+                                <exclude reference="Nbs-Fv-TzD"/>
+                                <exclude reference="cta-qf-oea"/>
+                                <exclude reference="IB0-xr-ZoY"/>
+                                <exclude reference="UNq-Pc-Ss7"/>
+                                <exclude reference="sGg-54-afC"/>
+                                <exclude reference="vSk-vN-Zp5"/>
+                                <exclude reference="2O7-0R-jDb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Ecc-C6-ZU0" id="yZ4-QQ-6y2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WwJ-ZE-q00" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89" y="782"/>
+        </scene>
+    </scenes>
+</document>
