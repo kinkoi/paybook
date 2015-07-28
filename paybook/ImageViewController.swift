@@ -47,16 +47,9 @@ class ImageViewController: UIViewController, UITextFieldDelegate {
     }
     */
 
-    func textFieldDidBeginEditing(textField: UITextField) {
-        println("textFieldDidBeginEditing")
-    }
-    
-    func textFieldDidEndEditing(textField: UITextField) {
-        println("textFieldDidEndEditing")
-    }
-
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         println("Return pressed")
+        println(textField.text)
         self.captionViewWrapper.endEditing(true)
         return true
     }
@@ -65,21 +58,19 @@ class ImageViewController: UIViewController, UITextFieldDelegate {
     func keyboardWillShow(notification: NSNotification) {
         if let info = notification.userInfo {
             var keyboardFrame = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).CGRectValue()
-            let keyboardHeight = keyboardFrame.height
+            self.viewWrapperBottomConstraint.constant = keyboardFrame.height
             UIView.animateWithDuration(0.3, animations: { () -> Void in
-                self.viewWrapperBottomConstraint.constant = keyboardHeight
+                self.view.layoutIfNeeded()
             })
         }
     }
     
     func keyboardWillHide(notification: NSNotification) {
-        if let info = notification.userInfo {
-            var keyboardFrame = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).CGRectValue()
-            let keyboardHeight = keyboardFrame.height
-            UIView.animateWithDuration(0.3, animations: { () -> Void in
-                self.viewWrapperBottomConstraint.constant = 0
-            })
-        }
+        self.viewWrapperBottomConstraint.constant = 0
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
+            self.view.layoutIfNeeded()
+        })
+    
     }
     
 }
